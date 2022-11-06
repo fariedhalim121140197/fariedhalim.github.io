@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+	margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslateblue;
+    position: relative;
+}
+
+li {
+    float: left;
+	font-weight: bold;
+}
+
+li a{
+    display: block;
+	background-color: lightgrey;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+
+article {
+	background-color: grey;
+	width: 70%;
+	position: relative;
+	top: 20px;
+	left: 250px;	
+	border-radius: 10px;
+	
+}
+
+footer {
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 50px;
+}
+
+.foto { 
+	width: 128px;
+	height: 160px;
+	border: 5px solid peachpuff;
+	background-color: white;
+	position: relative;
+	left: 40%
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+#Tunjuk {
+	margin: 10px;
+	font-weight: bold;
+}
+
+#contact {
+	float: left;
+}
+
+#tengah {
+	text-align: center;
+}
+
+.navedit {
+	background-color: chocolate;
+	position: relative;
+	left: 50px;
+}
